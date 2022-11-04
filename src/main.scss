@@ -50,3 +50,46 @@ h1{
   padding: 12px 20px;
   font-size: 1.2rem;
 }
+
+.file-list{
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+}
+
+.todo-items{
+  min-width: 350px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.item{
+  background: pink;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.checkbox{
+  margin-right: 10px;
+}
+
+.delete-button{
+  float: right;
+  background: magenta;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 3px 5px;
+  line-height: 20px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.checked{
+  text-decoration: line-through;
+}
